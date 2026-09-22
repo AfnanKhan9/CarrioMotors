@@ -1,0 +1,42 @@
+[
+  {
+    "car": "bmw-m4",
+    "caption": "BMW M4 Competition"
+  },
+  {
+    "car": "mg-cyberster",
+    "caption": "MG Cyberster with scissor doors open"
+  },
+  {
+    "car": "jeep-wrangler",
+    "caption": "Jeep Wrangler, trail ready"
+  },
+  {
+    "car": "hyundai-ioniq5",
+    "caption": "Hyundai Ioniq 5"
+  },
+  {
+    "car": "audi-rs5",
+    "caption": "Audi RS 5 Coupé"
+  },
+  {
+    "car": "suzuki-jimny",
+    "caption": "Suzuki Jimny 4x4 off the road"
+  },
+  {
+    "car": "kia-ev6",
+    "caption": "Kia EV6 GT-Line"
+  },
+  {
+    "car": "bmw-330i",
+    "caption": "BMW 330i M Sport"
+  },
+  {
+    "car": "mg-zs-ev",
+    "caption": "MG ZS EV"
+  },
+  {
+    "car": "jeep-grand-cherokee",
+    "caption": "Jeep Grand Cherokee Summit"
+  }
+]

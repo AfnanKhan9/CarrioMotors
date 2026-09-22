@@ -1,0 +1,53 @@
+{
+  "name": "Carrio Motors",
+  "slogan": "Find it, drive it, own it without the hassle.",
+  "email": "info@carriomotors.com",
+  "salesEmail": "sales@carriomotors.com",
+  "phone": "+92 21 111 227 746",
+  "hours": "Monday to Saturday, 10:00 to 20:00",
+  "headOffice": "Carrio House, Plot 14, Shahrah-e-Faisal, Karachi 75350, Pakistan",
+  "showrooms": [
+    {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    }
+  ],
+  "founded": 2011,
+  "visitorBase": 24817,
+  "about": [
+    "Carrio Motors started in 2011 with one Karachi showroom and a promise to follow the same Standard Operating Processes for every customer, at every branch.",
+    "Today every Carrio showroom is over 8,000 sq. ft., and our service centres sit close to main roads so you are never far from help. Our teams work with discipline, focus and speed, and we measure ourselves on customer satisfaction first."
+  ],
+  "stats": [
+    {
+      "value": "15+",
+      "label": "years selling cars"
+    },
+    {
+      "value": "7",
+      "label": "brands under one roof"
+    },
+    {
+      "value": "8,000+",
+      "label": "sq. ft. per showroom"
+    },
+    {
+      "value": "3",
+      "label": "cities with service centres"
+    }
+  ]
+}

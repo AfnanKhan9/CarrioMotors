@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Carrio Motors: BMW, Audi, Hyundai, Jeep, Suzuki, Kia and MG cars with warranty and finance plans, in Karachi, Lahore and Islamabad.">
+  <title>Carrio Motors | Car dealership</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="index">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== Utility strip: contact + visitor counter beside logo (top right) ===== -->
+<div class="utility-strip">
+  <div class="container-xl d-flex align-items-center justify-content-between gap-3">
+    <p class="utility-info mb-0">
+      <span>Call <a href="tel:+9221111227746" data-company="phone">+92 21 111 227 746</a></span>
+      <span class="d-none d-md-inline" data-company="hours">Monday to Saturday, 10:00 to 20:00</span>
+    </p>
+    <div class="visitor" aria-live="polite">
+      <span class="visitor-label">Visitors</span>
+      <span class="odometer" id="visitorCount" aria-label="Visitor count"></span>
+      <img src="images/logo.svg" alt="Carrio Motors emblem" class="visitor-logo" width="26" height="26">
+    </div>
+  </div>
+</div>
+
+<!-- ===== Header + menu ===== -->
+<header class="site-header" id="top">
+  <nav class="container-xl d-flex align-items-center justify-content-between" id="mainNav" aria-label="Main menu">
+    <a href="index.html" class="brand-mark">
+      <img src="images/logo.svg" alt="" width="42" height="42">
+      <span class="brand-word">Carrio<span>Motors</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menuList">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      <span class="visually-hidden">Open menu</span>
+    </button>
+
+    <ul class="menu" id="menuList">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li class="has-drop">
+        <a href="showroom.html" class="nav-link" aria-haspopup="true">Showroom</a>
+        <ul class="drop">
+          <li><a href="showroom.html?view=brand">Cars by brand</a></li>
+          <li><a href="showroom.html?view=category">Cars by performance</a></li>
+        </ul>
+      </li>
+      <li><a href="warranty.html" class="nav-link">Warranty</a></li>
+      <li><a href="finance.html" class="nav-link">Finance</a></li>
+      <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+      <li><a href="about.html" class="nav-link">About us</a></li>
+      <li><a href="contact.html" class="nav-link">Contact us</a></li>
+      <li><a href="sitemap.html" class="nav-link">Site map</a></li>
+      <li class="menu-cta"><a href="contact.html" class="btn-signal">Book a test drive</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<main id="main">
+
+  <!-- ===== Hero: scrolling images of cars ===== -->
+  <section id="home" class="hero" aria-roledescription="carousel" aria-label="Featured cars">
+    <div class="container-xl hero-inner">
+      <div class="hero-copy">
+        <p class="hero-kicker" id="heroBrand"></p>
+        <h1 class="hero-title" id="heroTitle">Carrio Motors</h1>
+        <p class="hero-line" id="heroLine"></p>
+        <div class="hero-actions">
+          <button class="btn-signal" id="heroDetails">See specs and price</button>
+          <a href="showroom.html" class="btn-ghost">Browse all cars</a>
+        </div>
+      </div>
+      <div class="hero-stage">
+        <div class="hero-car" id="heroCar"></div>
+        <div class="road" aria-hidden="true"><span></span></div>
+      </div>
+    </div>
+    <div class="container-xl hero-controls">
+      <button class="hero-arrow" id="heroPrev" aria-label="Previous car">&#8249;</button>
+      <div class="hero-dots" id="heroDots" role="tablist"></div>
+      <button class="hero-arrow" id="heroNext" aria-label="Next car">&#8250;</button>
+      <button class="hero-pause" id="heroPause" aria-label="Pause slideshow">Pause</button>
+    </div>
+    <div class="brand-rail" id="brandRail" aria-label="Brands we sell"></div>
+  </section>
+
+
+
+  <!-- ===== Stats band ===== -->
+  <section class="stats-band" aria-label="Carrio Motors in numbers">
+    <div class="container-xl"><dl class="band-stats" id="homeStats"></dl></div>
+  </section>
+
+  <!-- ===== Featured cars ===== -->
+  <section id="featured" class="section">
+    <div class="container-xl">
+      <div class="section-head">
+        <h2>Featured cars</h2>
+        <p>A few of the cars customers ask about most. Click a car for its price, features and dealer.</p>
+      </div>
+      <div class="car-grid" id="featuredGrid"></div>
+      <p class="mt-4"><a href="showroom.html" class="btn-signal">See all 21 cars in the showroom</a></p>
+    </div>
+  </section>
+
+
+  <!-- ===== Shop by performance ===== -->
+  <section class="section section-alt">
+    <div class="container-xl">
+      <div class="section-head">
+        <h2>Shop by how you drive</h2>
+        <p>Six performance groups, from frugal city cars to 500 hp sports cars. Pick one to see the cars in it.</p>
+      </div>
+      <div class="cat-grid" id="catTiles"></div>
+    </div>
+  </section>
+
+  <!-- ===== Offer banner ===== -->
+  <section class="offer">
+    <div class="container-xl offer-inner">
+      <div>
+        <p class="offer-kicker">Green EV Plan</p>
+        <h2>Drive electric from 11% a year</h2>
+        <p>Finance on BMW i4, Hyundai Ioniq 5, Kia EV6 and MG ZS EV with a free home charger and up to six years to pay.</p>
+      </div>
+      <div class="offer-actions">
+        <a href="showroom.html?category=electric" class="btn-signal">See electric cars</a>
+        <a href="finance.html#calculator" class="btn-ghost">Work out a payment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Why Carrio ===== -->
+  <section class="section">
+    <div class="container-xl">
+      <div class="section-head">
+        <h2>Why buy from Carrio Motors</h2>
+        <p>One of the fastest growing dealerships, run on the same Standard Operating Processes at every branch.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why"><span class="why-num">01</span><h3>Big showrooms</h3><p>Every showroom is over 8,000 sq. ft., so you can see and sit in the cars side by side.</p></div>
+        <div class="why"><span class="why-num">02</span><h3>Service close by</h3><p>Service centres sit near main roads in Karachi, Lahore and Islamabad.</p></div>
+        <div class="why"><span class="why-num">03</span><h3>Same process everywhere</h3><p>Our teams follow one set of SOPs with discipline, focus and speed at every branch.</p></div>
+        <div class="why"><span class="why-num">04</span><h3>Customers first</h3><p>We measure ourselves on customer satisfaction, from the first visit to the first service.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Quick links ===== -->
+  <section class="section section-alt">
+    <div class="container-xl">
+      <div class="section-head"><h2>Buying with Carrio Motors</h2></div>
+      <div class="quick-grid">
+        <a class="quick" href="showroom.html?view=category"><h3>Shop by performance</h3><p>City cars, family SUVs, luxury, sport, off-road and electric.</p></a>
+        <a class="quick" href="warranty.html"><h3>Warranty up to 7 years</h3><p>Every brand has its own cover. Compare them side by side.</p></a>
+        <a class="quick" href="finance.html"><h3>Finance from 11%</h3><p>Five plans, including Islamic Ijarah, with a payment calculator.</p></a>
+        <a class="quick" href="contact.html"><h3>Book a test drive</h3><p>Showrooms in Karachi, Lahore and Islamabad.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Showrooms ===== -->
+  <section class="section">
+    <div class="container-xl">
+      <div class="section-head">
+        <h2>Visit a showroom</h2>
+        <p>Walk in, or book a test drive and we will have the car ready for you.</p>
+      </div>
+      <div class="home-showrooms" id="homeShowrooms"></div>
+      <p class="mt-4"><a href="contact.html" class="btn-signal">Book a test drive</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container-xl footer-inner">
+    <div>
+      <a href="index.html" class="brand-mark">
+        <img src="images/logo.svg" alt="" width="36" height="36">
+        <span class="brand-word">Carrio<span>Motors</span></span>
+      </a>
+      <p class="footer-slogan" data-company="slogan"></p>
+      <p class="footer-brands">BMW, Audi, Hyundai, Jeep, Suzuki, Kia and MG under one roof.</p>
+    </div>
+    <div>
+      <h2 class="footer-head">Explore</h2>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="showroom.html">Showroom</a></li>
+        <li><a href="warranty.html">Warranty</a></li>
+        <li><a href="finance.html">Finance</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="sitemap.html">Site map</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-head">Get in touch</h2>
+      <address class="footer-contact">
+        <span class="fc-label">Address</span><span data-company="headOffice"></span>
+        <span class="fc-label">Phone</span><a data-company="phoneLink" href="tel:+9221111227746">+92 21 111 227 746</a>
+        <span class="fc-label">Email</span><a data-company="emailLink" href="mailto:info@carriomotors.com">info@carriomotors.com</a>
+        <span class="fc-label">Hours</span><span data-company="hours"></span>
+      </address>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Carrio Motors. All rights reserved. <a href="sitemap.xml">sitemap.xml</a></p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">&#8593;</button>
+
+<!-- ===== Bottom ticker: date, time, location ===== -->
+<div class="ticker" role="marquee" aria-label="Date, time and location">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<!-- ===== Car details popup ===== -->
+<div class="modal fade" id="carModal" tabindex="-1" aria-labelledby="carModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content car-modal">
+      <div class="modal-header">
+        <div>
+          <p class="modal-brand" id="carModalBrand"></p>
+          <h2 class="modal-title" id="carModalTitle"></h2>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="carModalBody"></div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/vendor/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap.bundle.min.js"></script>
+<script src="data/data-fallback.js"></script>
+<script src="assets/js/car-art.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

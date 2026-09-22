@@ -1,0 +1,127 @@
+[
+  {
+    "id": "easy-drive",
+    "name": "Carrio Easy Drive",
+    "type": "Conventional auto loan",
+    "rate": 14.5,
+    "minDown": 20,
+    "tenure": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "brands": [
+      "hyundai",
+      "suzuki",
+      "kia",
+      "mg"
+    ],
+    "highlights": [
+      "Approval in 48 hours",
+      "No early settlement fee after year one",
+      "Insurance bundled for year one"
+    ]
+  },
+  {
+    "id": "ijarah",
+    "name": "Islamic Ijarah Plan",
+    "type": "Shariah-compliant lease",
+    "rate": 15.0,
+    "minDown": 25,
+    "tenure": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "brands": [
+      "bmw",
+      "audi",
+      "hyundai",
+      "jeep",
+      "suzuki",
+      "kia",
+      "mg"
+    ],
+    "highlights": [
+      "Rental-based, no interest",
+      "Takaful insurance included",
+      "Ownership transfers at the end of the term"
+    ]
+  },
+  {
+    "id": "prestige-balloon",
+    "name": "Prestige Balloon Plan",
+    "type": "Low monthly, final balloon payment",
+    "rate": 13.25,
+    "minDown": 30,
+    "tenure": [
+      3,
+      4
+    ],
+    "brands": [
+      "bmw",
+      "audi",
+      "jeep"
+    ],
+    "balloon": 35,
+    "highlights": [
+      "Monthly payments up to 40% lower",
+      "Pay, refinance or trade in at the end",
+      "Free first service"
+    ]
+  },
+  {
+    "id": "green-ev",
+    "name": "Green EV Plan",
+    "type": "Reduced rate for electric cars",
+    "rate": 11.0,
+    "minDown": 15,
+    "tenure": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "brands": [
+      "bmw",
+      "hyundai",
+      "kia",
+      "mg"
+    ],
+    "electricOnly": true,
+    "highlights": [
+      "Lowest rate we offer",
+      "Home charger installed free",
+      "Six-year tenure available"
+    ]
+  },
+  {
+    "id": "corporate",
+    "name": "Corporate Fleet Lease",
+    "type": "Operating lease for companies",
+    "rate": 16.0,
+    "minDown": 10,
+    "tenure": [
+      2,
+      3
+    ],
+    "brands": [
+      "audi",
+      "hyundai",
+      "kia",
+      "mg",
+      "suzuki"
+    ],
+    "highlights": [
+      "For 3 or more cars",
+      "Maintenance and replacement car included",
+      "VAT-friendly monthly invoicing"
+    ]
+  }
+]

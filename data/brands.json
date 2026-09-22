@@ -1,0 +1,51 @@
+[
+  {
+    "id": "bmw",
+    "name": "BMW",
+    "country": "Germany",
+    "tagline": "Sheer driving pleasure, from executive saloons to M cars.",
+    "short": "BMW"
+  },
+  {
+    "id": "audi",
+    "name": "Audi",
+    "country": "Germany",
+    "tagline": "quattro grip and a cabin built around the driver.",
+    "short": "Audi"
+  },
+  {
+    "id": "hyundai",
+    "name": "Hyundai",
+    "country": "South Korea",
+    "tagline": "Everyday cars with long warranties and smart tech.",
+    "short": "Hyundai"
+  },
+  {
+    "id": "jeep",
+    "name": "Jeep",
+    "country": "United States",
+    "tagline": "Trail Rated 4x4s that are just as good in town.",
+    "short": "Jeep"
+  },
+  {
+    "id": "suzuki",
+    "name": "Suzuki",
+    "country": "Japan",
+    "tagline": "Light, frugal and easy to own.",
+    "short": "Suzuki"
+  },
+  {
+    "id": "kia",
+    "name": "Kia",
+    "country": "South Korea",
+    "tagline": "Bold design with electric and petrol choices.",
+    "short": "Kia"
+  },
+  {
+    "id": "mg",
+    "name": "Morris Garages",
+    "short": "MG",
+    "country": "United Kingdom",
+    "tagline": "British roots, modern electric range."
+  }
+]

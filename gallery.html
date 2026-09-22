@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Carrio Motors: BMW, Audi, Hyundai, Jeep, Suzuki, Kia and MG cars with warranty and finance plans, in Karachi, Lahore and Islamabad.">
+  <title>Gallery | Carrio Motors</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="gallery">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== Utility strip: contact + visitor counter beside logo (top right) ===== -->
+<div class="utility-strip">
+  <div class="container-xl d-flex align-items-center justify-content-between gap-3">
+    <p class="utility-info mb-0">
+      <span>Call <a href="tel:+9221111227746" data-company="phone">+92 21 111 227 746</a></span>
+      <span class="d-none d-md-inline" data-company="hours">Monday to Saturday, 10:00 to 20:00</span>
+    </p>
+    <div class="visitor" aria-live="polite">
+      <span class="visitor-label">Visitors</span>
+      <span class="odometer" id="visitorCount" aria-label="Visitor count"></span>
+      <img src="images/logo.svg" alt="Carrio Motors emblem" class="visitor-logo" width="26" height="26">
+    </div>
+  </div>
+</div>
+
+<!-- ===== Header + menu ===== -->
+<header class="site-header" id="top">
+  <nav class="container-xl d-flex align-items-center justify-content-between" id="mainNav" aria-label="Main menu">
+    <a href="index.html" class="brand-mark">
+      <img src="images/logo.svg" alt="" width="42" height="42">
+      <span class="brand-word">Carrio<span>Motors</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menuList">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      <span class="visually-hidden">Open menu</span>
+    </button>
+
+    <ul class="menu" id="menuList">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li class="has-drop">
+        <a href="showroom.html" class="nav-link" aria-haspopup="true">Showroom</a>
+        <ul class="drop">
+          <li><a href="showroom.html?view=brand">Cars by brand</a></li>
+          <li><a href="showroom.html?view=category">Cars by performance</a></li>
+        </ul>
+      </li>
+      <li><a href="warranty.html" class="nav-link">Warranty</a></li>
+      <li><a href="finance.html" class="nav-link">Finance</a></li>
+      <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+      <li><a href="about.html" class="nav-link">About us</a></li>
+      <li><a href="contact.html" class="nav-link">Contact us</a></li>
+      <li><a href="sitemap.html" class="nav-link">Site map</a></li>
+      <li class="menu-cta"><a href="contact.html" class="btn-signal">Book a test drive</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<main id="main">
+
+  <!-- ===== Gallery ===== -->
+  <section id="gallery" class="section">
+    <div class="container-xl">
+      <div class="section-head">
+        <h1 class="page-title">Gallery</h1>
+        <p>A look at some of the cars on our showroom floors. Click an image to enlarge it.</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container-xl footer-inner">
+    <div>
+      <a href="index.html" class="brand-mark">
+        <img src="images/logo.svg" alt="" width="36" height="36">
+        <span class="brand-word">Carrio<span>Motors</span></span>
+      </a>
+      <p class="footer-slogan" data-company="slogan"></p>
+      <p class="footer-brands">BMW, Audi, Hyundai, Jeep, Suzuki, Kia and MG under one roof.</p>
+    </div>
+    <div>
+      <h2 class="footer-head">Explore</h2>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="showroom.html">Showroom</a></li>
+        <li><a href="warranty.html">Warranty</a></li>
+        <li><a href="finance.html">Finance</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="sitemap.html">Site map</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-head">Get in touch</h2>
+      <address class="footer-contact">
+        <span class="fc-label">Address</span><span data-company="headOffice"></span>
+        <span class="fc-label">Phone</span><a data-company="phoneLink" href="tel:+9221111227746">+92 21 111 227 746</a>
+        <span class="fc-label">Email</span><a data-company="emailLink" href="mailto:info@carriomotors.com">info@carriomotors.com</a>
+        <span class="fc-label">Hours</span><span data-company="hours"></span>
+      </address>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Carrio Motors. All rights reserved. <a href="sitemap.xml">sitemap.xml</a></p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">&#8593;</button>
+
+<!-- ===== Bottom ticker: date, time, location ===== -->
+<div class="ticker" role="marquee" aria-label="Date, time and location">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<!-- ===== Gallery lightbox ===== -->
+<div class="modal fade" id="lightbox" tabindex="-1" aria-label="Gallery image" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content lightbox">
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      <figure id="lightboxFigure"></figure>
+      <div class="lightbox-nav">
+        <button id="lbPrev" aria-label="Previous image">&#8249;</button>
+        <button id="lbNext" aria-label="Next image">&#8250;</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/vendor/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap.bundle.min.js"></script>
+<script src="data/data-fallback.js"></script>
+<script src="assets/js/car-art.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

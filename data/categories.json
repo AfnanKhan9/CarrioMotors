@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fuel-efficient",
+    "name": "City & fuel efficient",
+    "desc": "Small engines, low running costs, easy parking."
+  },
+  {
+    "id": "family",
+    "name": "Family comfort",
+    "desc": "Space for five or seven, big boots, strong safety kit."
+  },
+  {
+    "id": "luxury",
+    "name": "Luxury",
+    "desc": "Premium cabins, quiet ride and the latest driver aids."
+  },
+  {
+    "id": "sport",
+    "name": "Sport performance",
+    "desc": "Under 4 seconds to 100 km/h in most cases."
+  },
+  {
+    "id": "offroad",
+    "name": "Off-road 4x4",
+    "desc": "Low-range gearboxes and proper ground clearance."
+  },
+  {
+    "id": "electric",
+    "name": "Electric",
+    "desc": "Zero tailpipe emissions and home charging."
+  }
+]

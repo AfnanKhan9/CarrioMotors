@@ -1,0 +1,72 @@
+[
+  {
+    "brand": "bmw",
+    "years": 3,
+    "km": "Unlimited",
+    "roadside": "3 years, 24/7",
+    "paint": "3 years",
+    "battery": "8 years / 160,000 km (i models)",
+    "service": "BMW Service Inclusive, 3 years",
+    "extended": "Up to 5 years, PKR 380,000"
+  },
+  {
+    "brand": "audi",
+    "years": 3,
+    "km": "100,000 km",
+    "roadside": "3 years, 24/7",
+    "paint": "3 years",
+    "battery": "8 years / 160,000 km (e-tron)",
+    "service": "Audi Care, 2 years",
+    "extended": "Up to 5 years, PKR 350,000"
+  },
+  {
+    "brand": "hyundai",
+    "years": 5,
+    "km": "150,000 km",
+    "roadside": "5 years",
+    "paint": "3 years",
+    "battery": "8 years / 160,000 km (Ioniq)",
+    "service": "First 3 services free",
+    "extended": "Up to 7 years, PKR 120,000"
+  },
+  {
+    "brand": "jeep",
+    "years": 3,
+    "km": "100,000 km",
+    "roadside": "3 years, including off-road recovery",
+    "paint": "3 years",
+    "battery": "Not applicable",
+    "service": "Mopar care, 2 years",
+    "extended": "Up to 5 years, PKR 290,000"
+  },
+  {
+    "brand": "suzuki",
+    "years": 3,
+    "km": "60,000 km",
+    "roadside": "1 year",
+    "paint": "2 years",
+    "battery": "Not applicable",
+    "service": "First 2 services free",
+    "extended": "Up to 5 years, PKR 45,000"
+  },
+  {
+    "brand": "kia",
+    "years": 7,
+    "km": "150,000 km",
+    "roadside": "3 years",
+    "paint": "5 years",
+    "battery": "8 years / 160,000 km (EV)",
+    "service": "First 3 services free",
+    "extended": "Standard cover already runs 7 years"
+  },
+  {
+    "brand": "mg",
+    "years": 6,
+    "km": "150,000 km",
+    "roadside": "6 years",
+    "paint": "3 years",
+    "battery": "8 years / 160,000 km (EV)",
+    "service": "First 3 services free",
+    "extended": "Up to 8 years, PKR 95,000"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "car": "bmw-m4",
+    "title": "M4 Competition",
+    "line": "503 hp and rear-wheel drive. Test drives open in Lahore."
+  },
+  {
+    "car": "kia-ev6",
+    "title": "Kia EV6 GT-Line",
+    "line": "500 km on a charge, 18 minutes from 10 to 80%."
+  },
+  {
+    "car": "jeep-wrangler",
+    "title": "Wrangler Rubicon",
+    "line": "Locking differentials and a removable roof, straight from the showroom."
+  },
+  {
+    "car": "audi-q7",
+    "title": "Audi Q7 quattro",
+    "line": "Seven seats and air suspension for long trips up north."
+  }
+]

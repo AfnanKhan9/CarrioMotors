@@ -1,0 +1,737 @@
+[
+  {
+    "id": "bmw-330i",
+    "name": "BMW 330i M Sport",
+    "brand": "bmw",
+    "category": "luxury",
+    "body": "sedan",
+    "year": 2026,
+    "price": 23500000,
+    "specs": {
+      "engine": "2.0L TwinPower Turbo",
+      "power": "255 hp",
+      "torque": "400 Nm",
+      "acceleration": "5.8 s",
+      "topSpeed": "250 km/h",
+      "fuel": "Petrol",
+      "transmission": "8-speed Steptronic",
+      "economy": "14 km/l",
+      "seats": 5
+    },
+    "color": "#1F3A5F",
+    "image": "images/cars/bmw-330i.jpg",
+    "dealer": {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    "features": [
+      "Live Cockpit Professional",
+      "Adaptive LED headlights",
+      "Harman Kardon sound",
+      "Parking Assistant",
+      "Wireless charging"
+    ]
+  },
+  {
+    "id": "bmw-m4",
+    "name": "BMW M4 Competition",
+    "brand": "bmw",
+    "category": "sport",
+    "body": "coupe",
+    "year": 2026,
+    "price": 58000000,
+    "specs": {
+      "engine": "3.0L M TwinPower Turbo I6",
+      "power": "503 hp",
+      "torque": "650 Nm",
+      "acceleration": "3.9 s",
+      "topSpeed": "290 km/h",
+      "fuel": "Petrol",
+      "transmission": "8-speed M Steptronic",
+      "economy": "10 km/l",
+      "seats": 4
+    },
+    "color": "#2E6F40",
+    "image": "images/cars/bmw-m4.jpg",
+    "dealer": {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    "features": [
+      "M carbon bucket seats",
+      "Adaptive M suspension",
+      "M Drive modes",
+      "Head-up display",
+      "Laser lights"
+    ]
+  },
+  {
+    "id": "bmw-i4",
+    "name": "BMW i4 eDrive40",
+    "brand": "bmw",
+    "category": "electric",
+    "body": "sedan",
+    "year": 2026,
+    "price": 41000000,
+    "specs": {
+      "engine": "Single electric motor",
+      "power": "340 hp",
+      "torque": "430 Nm",
+      "acceleration": "5.7 s",
+      "topSpeed": "190 km/h",
+      "fuel": "Electric",
+      "transmission": "Single-speed",
+      "economy": "590 km range",
+      "seats": 5
+    },
+    "color": "#5B6770",
+    "image": "images/cars/bmw-i4.jpg",
+    "dealer": {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    },
+    "features": [
+      "Curved display",
+      "DC fast charging 205 kW",
+      "Driving Assistant",
+      "Heat pump",
+      "Iconic Sounds Electric"
+    ]
+  },
+  {
+    "id": "audi-a4",
+    "name": "Audi A4 40 TFSI",
+    "brand": "audi",
+    "category": "luxury",
+    "body": "sedan",
+    "year": 2026,
+    "price": 21000000,
+    "specs": {
+      "engine": "2.0L TFSI",
+      "power": "204 hp",
+      "torque": "320 Nm",
+      "acceleration": "7.3 s",
+      "topSpeed": "241 km/h",
+      "fuel": "Petrol",
+      "transmission": "7-speed S tronic",
+      "economy": "15 km/l",
+      "seats": 5
+    },
+    "color": "#8A8D91",
+    "image": "images/cars/audi-a4.jpg",
+    "dealer": {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    "features": [
+      "Virtual Cockpit Plus",
+      "Matrix LED headlights",
+      "Three-zone climate",
+      "Audi pre sense",
+      "Bang & Olufsen 3D sound"
+    ]
+  },
+  {
+    "id": "audi-q7",
+    "name": "Audi Q7 55 TFSI quattro",
+    "brand": "audi",
+    "category": "family",
+    "body": "suv",
+    "year": 2026,
+    "price": 42000000,
+    "specs": {
+      "engine": "3.0L V6 TFSI",
+      "power": "340 hp",
+      "torque": "500 Nm",
+      "acceleration": "5.9 s",
+      "topSpeed": "250 km/h",
+      "fuel": "Petrol",
+      "transmission": "8-speed tiptronic",
+      "economy": "9 km/l",
+      "seats": 7
+    },
+    "color": "#2B2F33",
+    "image": "images/cars/audi-q7.jpg",
+    "dealer": {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    "features": [
+      "Seven seats",
+      "quattro all-wheel drive",
+      "Adaptive air suspension",
+      "Panoramic roof",
+      "360° camera"
+    ]
+  },
+  {
+    "id": "audi-rs5",
+    "name": "Audi RS 5 Coupé",
+    "brand": "audi",
+    "category": "sport",
+    "body": "coupe",
+    "year": 2026,
+    "price": 52000000,
+    "specs": {
+      "engine": "2.9L V6 TFSI biturbo",
+      "power": "450 hp",
+      "torque": "600 Nm",
+      "acceleration": "3.9 s",
+      "topSpeed": "280 km/h",
+      "fuel": "Petrol",
+      "transmission": "8-speed tiptronic",
+      "economy": "10 km/l",
+      "seats": 4
+    },
+    "color": "#B3261E",
+    "image": "images/cars/audi-rs5.jpg",
+    "dealer": {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    },
+    "features": [
+      "RS sport exhaust",
+      "Dynamic Ride Control",
+      "RS sport seats",
+      "Carbon trim",
+      "quattro sport differential"
+    ]
+  },
+  {
+    "id": "hyundai-elantra",
+    "name": "Hyundai Elantra 2.0",
+    "brand": "hyundai",
+    "category": "fuel-efficient",
+    "body": "sedan",
+    "year": 2026,
+    "price": 8900000,
+    "specs": {
+      "engine": "2.0L MPi",
+      "power": "154 hp",
+      "torque": "192 Nm",
+      "acceleration": "9.5 s",
+      "topSpeed": "200 km/h",
+      "fuel": "Petrol",
+      "transmission": "6-speed automatic",
+      "economy": "16 km/l",
+      "seats": 5
+    },
+    "color": "#C9CDD2",
+    "image": "images/cars/hyundai-elantra.jpg",
+    "dealer": {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    "features": [
+      "8-inch touchscreen",
+      "Apple CarPlay & Android Auto",
+      "Lane Keep Assist",
+      "Smart cruise control",
+      "Rear camera"
+    ]
+  },
+  {
+    "id": "hyundai-tucson",
+    "name": "Hyundai Tucson Ultimate AWD",
+    "brand": "hyundai",
+    "category": "family",
+    "body": "suv",
+    "year": 2026,
+    "price": 11200000,
+    "specs": {
+      "engine": "2.0L MPi",
+      "power": "155 hp",
+      "torque": "192 Nm",
+      "acceleration": "10.9 s",
+      "topSpeed": "190 km/h",
+      "fuel": "Petrol",
+      "transmission": "6-speed automatic",
+      "economy": "12 km/l",
+      "seats": 5
+    },
+    "color": "#35524A",
+    "image": "images/cars/hyundai-tucson.jpg",
+    "dealer": {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    "features": [
+      "Panoramic sunroof",
+      "Ventilated seats",
+      "Blind spot monitor",
+      "Wireless charging",
+      "Hands-free tailgate"
+    ]
+  },
+  {
+    "id": "hyundai-ioniq5",
+    "name": "Hyundai Ioniq 5",
+    "brand": "hyundai",
+    "category": "electric",
+    "body": "hatch",
+    "year": 2026,
+    "price": 18500000,
+    "specs": {
+      "engine": "Dual electric motors",
+      "power": "320 hp",
+      "torque": "605 Nm",
+      "acceleration": "5.2 s",
+      "topSpeed": "185 km/h",
+      "fuel": "Electric",
+      "transmission": "Single-speed",
+      "economy": "480 km range",
+      "seats": 5
+    },
+    "color": "#9FB1A0",
+    "image": "images/cars/hyundai-ioniq5.jpg",
+    "dealer": {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    },
+    "features": [
+      "800V ultra-fast charging",
+      "Vehicle-to-load",
+      "Sliding centre console",
+      "Augmented reality HUD",
+      "Remote Smart Parking"
+    ]
+  },
+  {
+    "id": "jeep-wrangler",
+    "name": "Jeep Wrangler Rubicon",
+    "brand": "jeep",
+    "category": "offroad",
+    "body": "suv",
+    "year": 2026,
+    "price": 36000000,
+    "specs": {
+      "engine": "2.0L Turbo",
+      "power": "272 hp",
+      "torque": "400 Nm",
+      "acceleration": "7.6 s",
+      "topSpeed": "177 km/h",
+      "fuel": "Petrol",
+      "transmission": "8-speed automatic",
+      "economy": "9 km/l",
+      "seats": 5
+    },
+    "color": "#C07F2A",
+    "image": "images/cars/jeep-wrangler.jpg",
+    "dealer": {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    "features": [
+      "Rock-Trac 4x4 system",
+      "Locking differentials",
+      "Removable roof and doors",
+      "Sway-bar disconnect",
+      "Trail Rated badge"
+    ]
+  },
+  {
+    "id": "jeep-grand-cherokee",
+    "name": "Jeep Grand Cherokee Summit",
+    "brand": "jeep",
+    "category": "luxury",
+    "body": "suv",
+    "year": 2026,
+    "price": 39000000,
+    "specs": {
+      "engine": "3.6L Pentastar V6",
+      "power": "293 hp",
+      "torque": "353 Nm",
+      "acceleration": "7.9 s",
+      "topSpeed": "210 km/h",
+      "fuel": "Petrol",
+      "transmission": "8-speed automatic",
+      "economy": "8 km/l",
+      "seats": 5
+    },
+    "color": "#3C3F44",
+    "image": "images/cars/jeep-grand-cherokee.jpg",
+    "dealer": {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    "features": [
+      "Quadra-Drive II 4x4",
+      "Quadra-Lift air suspension",
+      "McIntosh audio",
+      "Night vision",
+      "Massage front seats"
+    ]
+  },
+  {
+    "id": "jeep-compass",
+    "name": "Jeep Compass Limited",
+    "brand": "jeep",
+    "category": "family",
+    "body": "suv",
+    "year": 2026,
+    "price": 14500000,
+    "specs": {
+      "engine": "1.3L Turbo",
+      "power": "150 hp",
+      "torque": "270 Nm",
+      "acceleration": "9.8 s",
+      "topSpeed": "195 km/h",
+      "fuel": "Petrol",
+      "transmission": "6-speed automatic",
+      "economy": "12 km/l",
+      "seats": 5
+    },
+    "color": "#6B2D2D",
+    "image": "images/cars/jeep-compass.jpg",
+    "dealer": {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    },
+    "features": [
+      "Selec-Terrain modes",
+      "10.1-inch Uconnect",
+      "Power tailgate",
+      "Adaptive cruise control",
+      "Dual-zone climate"
+    ]
+  },
+  {
+    "id": "suzuki-alto",
+    "name": "Suzuki Alto VXL AGS",
+    "brand": "suzuki",
+    "category": "fuel-efficient",
+    "body": "hatch",
+    "year": 2026,
+    "price": 3300000,
+    "specs": {
+      "engine": "660cc R06A",
+      "power": "39 hp",
+      "torque": "56 Nm",
+      "acceleration": "16.0 s",
+      "topSpeed": "140 km/h",
+      "fuel": "Petrol",
+      "transmission": "5-speed AGS",
+      "economy": "22 km/l",
+      "seats": 4
+    },
+    "color": "#D9A441",
+    "image": "images/cars/suzuki-alto.jpg",
+    "dealer": {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    "features": [
+      "Auto Gear Shift",
+      "Dual airbags",
+      "Power windows",
+      "ABS with EBD",
+      "Keyless entry"
+    ]
+  },
+  {
+    "id": "suzuki-swift",
+    "name": "Suzuki Swift GLX CVT",
+    "brand": "suzuki",
+    "category": "fuel-efficient",
+    "body": "hatch",
+    "year": 2026,
+    "price": 5200000,
+    "specs": {
+      "engine": "1.2L Z12E",
+      "power": "80 hp",
+      "torque": "108 Nm",
+      "acceleration": "12.5 s",
+      "topSpeed": "170 km/h",
+      "fuel": "Petrol",
+      "transmission": "CVT",
+      "economy": "20 km/l",
+      "seats": 5
+    },
+    "color": "#1E5AA8",
+    "image": "images/cars/suzuki-swift.jpg",
+    "dealer": {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    "features": [
+      "9-inch touchscreen",
+      "Push start",
+      "Cruise control",
+      "Six airbags",
+      "LED projector headlamps"
+    ]
+  },
+  {
+    "id": "suzuki-jimny",
+    "name": "Suzuki Jimny 4x4",
+    "brand": "suzuki",
+    "category": "offroad",
+    "body": "suv",
+    "year": 2026,
+    "price": 9800000,
+    "specs": {
+      "engine": "1.5L K15B",
+      "power": "102 hp",
+      "torque": "130 Nm",
+      "acceleration": "12.0 s",
+      "topSpeed": "145 km/h",
+      "fuel": "Petrol",
+      "transmission": "4-speed automatic",
+      "economy": "13 km/l",
+      "seats": 4
+    },
+    "color": "#4E6B3A",
+    "image": "images/cars/suzuki-jimny.jpg",
+    "dealer": {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    },
+    "features": [
+      "ALLGRIP PRO 4x4",
+      "Ladder frame chassis",
+      "Low-range transfer case",
+      "Hill descent control",
+      "Brake LSD traction control"
+    ]
+  },
+  {
+    "id": "kia-picanto",
+    "name": "Kia Picanto AT",
+    "brand": "kia",
+    "category": "fuel-efficient",
+    "body": "hatch",
+    "year": 2026,
+    "price": 3900000,
+    "specs": {
+      "engine": "1.0L Kappa",
+      "power": "67 hp",
+      "torque": "95 Nm",
+      "acceleration": "14.3 s",
+      "topSpeed": "160 km/h",
+      "fuel": "Petrol",
+      "transmission": "4-speed automatic",
+      "economy": "19 km/l",
+      "seats": 4
+    },
+    "color": "#B03A48",
+    "image": "images/cars/kia-picanto.jpg",
+    "dealer": {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    "features": [
+      "Touchscreen infotainment",
+      "Rear parking sensors",
+      "Dual airbags",
+      "Folding mirrors",
+      "Bluetooth audio"
+    ]
+  },
+  {
+    "id": "kia-sportage",
+    "name": "Kia Sportage AWD",
+    "brand": "kia",
+    "category": "family",
+    "body": "suv",
+    "year": 2026,
+    "price": 10900000,
+    "specs": {
+      "engine": "2.0L MPi",
+      "power": "155 hp",
+      "torque": "192 Nm",
+      "acceleration": "10.4 s",
+      "topSpeed": "186 km/h",
+      "fuel": "Petrol",
+      "transmission": "6-speed automatic",
+      "economy": "12 km/l",
+      "seats": 5
+    },
+    "color": "#3A4750",
+    "image": "images/cars/kia-sportage.jpg",
+    "dealer": {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    "features": [
+      "Curved dual displays",
+      "Panoramic sunroof",
+      "Smart power tailgate",
+      "Lane Following Assist",
+      "Ventilated seats"
+    ]
+  },
+  {
+    "id": "kia-ev6",
+    "name": "Kia EV6 GT-Line",
+    "brand": "kia",
+    "category": "electric",
+    "body": "hatch",
+    "year": 2026,
+    "price": 24500000,
+    "specs": {
+      "engine": "Dual electric motors",
+      "power": "325 hp",
+      "torque": "605 Nm",
+      "acceleration": "5.2 s",
+      "topSpeed": "188 km/h",
+      "fuel": "Electric",
+      "transmission": "Single-speed",
+      "economy": "500 km range",
+      "seats": 5
+    },
+    "color": "#6A7B8C",
+    "image": "images/cars/kia-ev6.jpg",
+    "dealer": {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    },
+    "features": [
+      "800V fast charging",
+      "Meridian sound",
+      "Remote Smart Parking",
+      "Augmented reality HUD",
+      "Vehicle-to-load"
+    ]
+  },
+  {
+    "id": "mg-hs",
+    "name": "MG HS Trophy",
+    "brand": "mg",
+    "category": "family",
+    "body": "suv",
+    "year": 2026,
+    "price": 8700000,
+    "specs": {
+      "engine": "1.5L Turbo",
+      "power": "162 hp",
+      "torque": "250 Nm",
+      "acceleration": "9.9 s",
+      "topSpeed": "190 km/h",
+      "fuel": "Petrol",
+      "transmission": "7-speed DCT",
+      "economy": "12 km/l",
+      "seats": 5
+    },
+    "color": "#8C1C13",
+    "image": "images/cars/mg-hs.jpg",
+    "dealer": {
+      "name": "Carrio Motors Karachi",
+      "city": "Karachi",
+      "address": "Plot 14, Shahrah-e-Faisal, Karachi",
+      "phone": "+92 21 3456 7800"
+    },
+    "features": [
+      "10.1-inch touchscreen",
+      "MG Pilot driver assistance",
+      "Panoramic sunroof",
+      "Sports seats",
+      "360° camera"
+    ]
+  },
+  {
+    "id": "mg-zs-ev",
+    "name": "MG ZS EV",
+    "brand": "mg",
+    "category": "electric",
+    "body": "suv",
+    "year": 2026,
+    "price": 9500000,
+    "specs": {
+      "engine": "Single electric motor",
+      "power": "174 hp",
+      "torque": "280 Nm",
+      "acceleration": "8.2 s",
+      "topSpeed": "175 km/h",
+      "fuel": "Electric",
+      "transmission": "Single-speed",
+      "economy": "440 km range",
+      "seats": 5
+    },
+    "color": "#2F80A8",
+    "image": "images/cars/mg-zs-ev.jpg",
+    "dealer": {
+      "name": "Carrio Motors Lahore",
+      "city": "Lahore",
+      "address": "42-B, MM Alam Road, Gulberg III, Lahore",
+      "phone": "+92 42 3578 1200"
+    },
+    "features": [
+      "i-SMART connectivity",
+      "DC fast charging",
+      "Adaptive cruise control",
+      "Lane Keep Assist",
+      "Regenerative braking modes"
+    ]
+  },
+  {
+    "id": "mg-cyberster",
+    "name": "MG Cyberster",
+    "brand": "mg",
+    "category": "sport",
+    "body": "coupe",
+    "year": 2026,
+    "price": 29000000,
+    "specs": {
+      "engine": "Dual electric motors",
+      "power": "510 hp",
+      "torque": "725 Nm",
+      "acceleration": "3.2 s",
+      "topSpeed": "200 km/h",
+      "fuel": "Electric",
+      "transmission": "Single-speed",
+      "economy": "443 km range",
+      "seats": 2
+    },
+    "color": "#C8102E",
+    "image": "images/cars/mg-cyberster.jpg",
+    "dealer": {
+      "name": "Carrio Motors Islamabad",
+      "city": "Islamabad",
+      "address": "Plot 7, Jinnah Avenue, Blue Area, Islamabad",
+      "phone": "+92 51 2870 4400"
+    },
+    "features": [
+      "Scissor doors",
+      "Electric soft top",
+      "Triple-screen cockpit",
+      "Launch mode",
+      "Bose audio"
+    ]
+  }
+]
